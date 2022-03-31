@@ -1,3 +1,88 @@
-h1{
-    color: blue;
+*{
+    color: #263852;
+    font-family: 'Roboto', sans-serif;
 }
+/* <!-- NavBar --> */
+.Navbar{
+    background-color: #273852;
+    display: flex;
+    justify-content: center;
+}
+.Navbar-heading{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border-style: solid;
+    border-color: #d45d47;
+    border-width: 2px;
+}
+.Navbar-heading p{
+    font-size: 50%;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.Navbar-heading h3{
+    font-size: larger;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+/* <!-- First Section --> */
+.First-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1%;
+    border-bottom: #979fab;
+    border-bottom-style: inset;
+    border-width: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.First-section p{
+    color: #222222;
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 5%;
+
+}
+.First-section select{
+    width: 120%;
+    height: 30px;
+    margin-right: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #222222;
+}
+.First-section input[type=button]{
+    background-color: #222222;
+    color: white;
+    /* border: hidden; */
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-left: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #222222;
+}
+.First-section input[type=text]{
+    height: 25px;
+    margin-right: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #222222;
+}
+.FirstSection-section1{
+    width: 20%;
+}
+.FirstSection-section2 h2{
+    padding-top: 18%;
+}
+/* <!-- Title Body --> */
+/* <!-- footer --> */
