@@ -62,7 +62,6 @@
 .First-section input[type=button]{
     background-color: #222222;
     color: white;
-    /* border: hidden; */
     padding-left: 10px;
     padding-right: 10px;
     height: 30px;
@@ -119,9 +118,6 @@
     background-color: #273852;
     justify-content: space-around;
     text-align: center;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-    height: auto;
 }
 .footer-content p{
     color: #e9e9e9;
@@ -133,14 +129,13 @@
 
 @media only screen and (max-width: 550px) {
     /* First Section collapsing */
+    /* Makes the First Section Collapsable in the Smaller screen
+       Flex direction is changed. We alse changed the ordering of
+       the flex items to */
     .First-section{
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
         align-items: center;
-        /* border-bottom: #979fab;
-        border-bottom-style: inset;
-        border-width: 1px; */
     }
     .FirstSection-section1{
         width: auto;
@@ -156,6 +151,10 @@
         font-size: 200%;
     }
     /* Main body Collapsing */
+    /* In the smaller screen we change the flex direction
+       so that It's easier to read. Iamge will be on top
+       follwed by rhe title and description. Also the font size 
+       is incresed for better readibilty. */
     .TitleBody-row{
         display: flex;
         flex-direction: column;
