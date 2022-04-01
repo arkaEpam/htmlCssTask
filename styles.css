@@ -59,7 +59,7 @@
     border-style: solid;
     border-color: #222222;
 }
-.First-section input[type=button]{
+.First-section input[type=submit]{
     background-color: #222222;
     color: white;
     padding-left: 10px;
@@ -70,7 +70,7 @@
     border-style: solid;
     border-color: #222222;
 }
-.First-section input[type=text]{
+.First-section input[type=email]{
     height: 25px;
     margin-right: 0px;
     border-width: 1px;
